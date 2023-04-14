@@ -5,18 +5,14 @@ Created on Fri Apr  7 12:18:51 2023
 @author: rohan
 """
 
-import numpy as np
 import pandas as pd
 import pickle
 
 import matplotlib.pyplot as plt
-import seaborn as sns
 
-from sklearn.preprocessing import LabelEncoder, MinMaxScaler, StandardScaler
-from sklearn.linear_model import LinearRegression, Ridge, Lasso, SGDRegressor
+from sklearn.preprocessing import LabelEncoder, MinMaxScaler
+from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
-import statsmodels.api as sm
-from sklearn.feature_selection import f_regression, mutual_info_regression,chi2, SelectKBest
 
 plt.rcParams['figure.figsize'] = [10,8]
 
