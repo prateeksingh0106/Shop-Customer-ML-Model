@@ -5,6 +5,10 @@ Created on Fri Apr 14 13:27:50 2023
 @author: rohan
 """
 import streamlit as st
+import pandas
+import numpy
+import sklearn
+import matplotlib
 import pickle
 
 pickle_file_in = open("regressor.pkl","rb")
