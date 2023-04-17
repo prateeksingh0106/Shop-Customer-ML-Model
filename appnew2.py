@@ -4,8 +4,11 @@ Created on Fri Apr 14 13:27:50 2023
 
 @author: rohan
 """
-!pip install scikitlearn
-import sklearn
+import subprocess
+
+# Install scikit-learn using pip
+subprocess.call(['pip', 'install', 'scikit-learn'])
+
 import streamlit as st
 import pickle
 
