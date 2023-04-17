@@ -4,7 +4,7 @@ Created on Fri Apr 14 13:27:50 2023
 
 @author: rohan
 """
-
+pip install -U scikit-learn
 import streamlit as st
 import pickle
 
