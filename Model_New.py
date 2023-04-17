@@ -10,6 +10,7 @@ import pickle
 
 import matplotlib.pyplot as plt
 
+import sklearn
 from sklearn.preprocessing import LabelEncoder, MinMaxScaler
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
@@ -66,7 +67,7 @@ y_pred = regressor.predict(x_test)
 
 
 # Dumping the pickle file into our disk memory.
-pickle_out = open("regressor.pkl","wb")
+pickle_out = open("regressor.sav","wb")
 pickle.dump(regressor, pickle_out)
 pickle_out.close()
 
