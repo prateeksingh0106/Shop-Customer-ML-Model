@@ -9,6 +9,8 @@ import subprocess
 # Install scikit-learn using pip
 subprocess.call(['pip', 'install', 'scikit-learn'])
 
+pip install scikit-learn
+
 import streamlit as st
 import pickle
 
